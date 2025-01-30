@@ -224,7 +224,6 @@ app.get('/stocks', (req, res) => {
   res.json({ Stocks: stocks });
 });
 
-
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 });
